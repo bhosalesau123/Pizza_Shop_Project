@@ -21,12 +21,12 @@ connectDb();
 
 
 
+
 app.get('/',(req,res)=>{
     res.send({
         message:"Hello "
     })
 })
-
 
 app.listen(PORT,()=>{
     console.log(`listening to port number ${PORT}`.bgCyan.blue);

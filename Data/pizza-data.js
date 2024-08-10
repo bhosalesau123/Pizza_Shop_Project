@@ -10,7 +10,6 @@ const pizzas = [
         },
       ],
       category: "veg",
-      image: 
       description: "Classic delight with 100% real mozzarella cheese",
     },
     {
@@ -24,7 +23,6 @@ const pizzas = [
         },
       ],
       category: "veg",
-      image: 
       description:
         "Delightful combination of onion, capsicum, tomato & grilled mushroom",
     },
@@ -41,7 +39,7 @@ const pizzas = [
       category: "veg",
       description:
         "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
-      image: 
+    },
     {
       name: "Chicken Golden Delight",
       varients: ["small", "medium", "large"],
@@ -53,7 +51,6 @@ const pizzas = [
         },
       ],
       category: "nonveg",
-      image: 
       description:
         "Double pepper barbecue chicken, golden corn and extra cheese, true delight",
     },
@@ -68,7 +65,6 @@ const pizzas = [
         },
       ],
       category: "nonveg",
-      image: 
       description:
         "A classic American taste! Relish the delectable flavor of Chicken Pepperoni, topped with extra cheese",
     },
@@ -83,7 +79,6 @@ const pizzas = [
         },
       ],
       category: "nonveg",
-      image: 
       description:
         "The wholesome flavour of tandoori masala with Chicken tikka, onion, red paprika & mint mayo",
     },

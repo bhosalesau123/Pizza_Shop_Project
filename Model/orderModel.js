@@ -18,7 +18,7 @@ const orderSchema = mongoose.Schema(
     },
     orderAmount: {
       type: String,
-      //   required: true,
+      
     },
     isDeliverd: {
       type: Boolean,
@@ -26,10 +26,12 @@ const orderSchema = mongoose.Schema(
     },
     transectionId: {
       type: String,
-      //   required: true,
+     
     },
   },
   { timestamps: true }
 );
 
-module.exports = mongoose.model("order", orderSchema);
+const orderModel= mongoose.model("order", orderSchema);
+module.exports = orderModel;
+
